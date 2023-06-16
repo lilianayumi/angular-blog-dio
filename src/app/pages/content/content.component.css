@@ -1,0 +1,29 @@
+.container__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+}
+.container__content a {
+  align-self: self-start;
+  padding: 1rem 0;
+}
+.content__cover {
+  width: 40%
+}
+.content__cover img {
+  width: 100%;
+}
+.content__description {
+  margin-top: 1rem;
+}
+.content__description p {
+  color: gray;
+}
+@media screen and (min-width: 768px) {
+  .container__content {
+    width: 50%;
+    margin: 1.5rem auto;
+  }
+}
